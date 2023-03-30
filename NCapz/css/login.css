@@ -1,0 +1,253 @@
+body{
+    padding-bottom: 4rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+#register_background{
+    background-image: url('images/cap\ bg.jpg');
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+#register_logo{
+    margin-top: 2.5rem;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.register_logo{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+
+#register_title{
+    margin-top: 4rem;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.login_student{
+    background-color: #00c0ef;
+    width: 400px;
+    height: 150px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0.5rem;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+
+.login_student:hover{
+    width: 410px;
+    cursor: pointer;
+}
+
+.login_teacher:hover{
+    width: 410px;
+    cursor: pointer;
+}
+
+.login_teacher{
+    background-color: #00a65a ;
+    width: 400px;
+    height: 150px;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+
+#login_student_title{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+
+#login_student_description{
+    color: white;
+    text-align: center;
+    margin-top: -15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+.sub_login_student{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 1.5rem;
+    background-color: #00abd6;
+}
+
+#sub_student_login_button{
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+#login_teacher_title{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+
+#login_teacher_description{
+    color: white;
+    text-align: center;
+    margin-top: -15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+.sub_login_teacher{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 1.5rem;
+    background-color: #01884b ;
+}
+
+#sub_teacher_login_button{
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+.register_container{
+    width: 60%;
+    margin: auto;
+    height: 700px;
+    background-color: #f39c12;
+    border: 1px solid #f39c12;
+}
+
+.register_container_header{
+    width: 100%;
+    height: 3rem;
+    background-color: #f39c12;
+    padding-top: 1rem;
+}
+
+.register_container_body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#teacher_registration{
+    margin-top: 0px;
+    margin-left: 1rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#register_blue_line{
+    color: blue;
+}
+
+.register_container_field{
+    width: 90%;
+    margin: auto;
+    border-top: 4px solid #3c8dbc;
+}
+
+/* THIS PART IS FOR THE LOGIN STUDENT */
+
+.id_field{
+    width: 350px;
+    height: 53px;
+    display: flex;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #363b41;
+}
+
+.password_field{
+    width: 350px;
+    height: 53px;
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 5px;
+    background-color: #363b41;
+}
+
+.sign_in_field{
+    position: relative;
+    width: 350px;
+    height: 53px;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 5px;
+    background-color: #ea4c88;
+}
+
+.login_field_left{
+    width: 100%;
+    flex: 1;
+}
+
+.login_field_right{
+    width: 300px;
+    flex: 4;
+    background-color: #444950;
+}
+
+#username{
+    width: 85%;
+    height: 100%;
+    border: none;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#username[type=username]:focus{
+    outline: none;
+}
+
+#password[type=password]:focus{
+    outline: none;
+}
+
+#password{
+    width: 85%;
+    height: 100%;
+    border: none;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#sign_in_button{
+    width: 350px;
+    height: 53px;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 5px;
+    background-color: #ea4c88;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+#sign_in_button:hover{
+    cursor: pointer;
+    background-color: #ff5797;
+}

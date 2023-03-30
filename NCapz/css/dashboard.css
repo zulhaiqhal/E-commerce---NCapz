@@ -1,0 +1,444 @@
+/* Google Font Link */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+}
+
+header {
+    position: fixed;
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid white;
+    z-index: 10;
+    color: white;
+}
+
+.container-wrapper {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.container-wrapper div {
+    width: 100%;
+}
+
+#container-wrapper-item1 {
+    margin-top: 15px;
+    display: flex;
+    justify-content: left;
+}
+
+#container-wrapper-item2 {
+    margin-top: 15px;
+    display: flex;
+    justify-content: right;
+}
+
+#admin-panel {
+    font-size: 1.5rem;
+}
+
+section {
+    display: flex;
+}
+
+#wrapper-staff-pic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -10px;
+    display: inline;
+}
+
+#wrapper-username {
+    margin-right: 1rem;
+    margin-top: 7px;
+}
+
+#main-container {
+    height: 100%;
+    min-width: 900px;
+}
+
+
+/* THIS PART IS FOR THE NAV MENU */
+
+.nav-menu {
+    position: fixed;
+    background-color: #282730;
+    width: 270px;
+    height: 100%;
+    border-right: 1px solid white;
+    z-index: 5;
+    top: 0px;
+}
+
+.nav-menu div {
+    color: white;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+}
+
+#logout-menu {
+    position: absolute;
+    width: 270px;
+    bottom: 0;
+    margin-bottom: 1rem;
+}
+
+.nav-menu-items i {
+    margin-right: 1rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nav-menu hr {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.nav-menu-items:hover {
+    background-color: rgb(224, 224, 224);
+    color: #282730;
+    cursor: pointer;
+}
+
+
+/* THIS IS FOR THE MAIN CONTAINER */
+
+.main-container {
+    margin: auto;
+    width: 100%;
+}
+
+.nav-bar-breaker {
+    width: 270px;
+    min-width: 270px;
+}
+
+.container-items {
+    margin: auto;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 2rem;
+}
+
+.container-nav-bar {
+    margin: auto;
+    background-color: #282730;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    box-shadow: rgb(146, 146, 146) 0px -3px;
+    justify-content: center;
+}
+
+.container-nav-bar-items span {
+    color: white;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.container-nav-bar-items {
+    height: 30px;
+    margin-top: 13px;
+}
+
+.container-nav-bar-items:hover {
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#submit-btn {
+    margin: auto;
+    width: 100px;
+    height: 30px;
+}
+
+
+/* THIS IS THE STYLE OF TABLE */
+
+#styling-table1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#styling-table1 td,
+#styling-table1 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#styling-table1 tr:hover {
+    background-color: #ddd;
+}
+
+#styling-table1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2a2a2a;
+    color: white;
+}
+
+.action-btn {
+    width: 80px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: #0163d3;
+    border-radius: 5px;
+}
+
+.action-btn:hover {
+    background-color: #046ce4;
+}
+
+.action-btn span {
+    position: relative;
+    top: 5px;
+}
+
+#editing-category-header {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.back-btn {
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    ;
+    background-color: #0163d3;
+    border-radius: 5px;
+}
+
+.back-btn span {
+    position: relative;
+    top: 7px;
+}
+
+.back-btn:hover {
+    cursor: pointer;
+    background-color: #014ca1;
+    transition: all 0.4s ease;
+}
+
+
+/* THIS IS FOR THE CONTAINER PART */
+
+.create-product-container {
+    margin: auto;
+    display: flex;
+    width: 80%;
+}
+
+.left-create-product-container {
+    width: 220px;
+}
+
+.right-create-product-container {
+    width: 100%;
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+.right-create-product-container textarea {
+    width: 100%;
+    height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    resize: none;
+}
+
+#textarea-product-description {
+    width: 100%;
+    height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    resize: none;
+}
+
+#category-selection {
+    width: 100%;
+    height: 45px;
+}
+
+
+/* => This is the css for the upload book with jqury that one */
+
+.avatar-upload {
+    position: relative;
+    max-width: 205px;
+    margin: 50px auto;
+    margin-top: 4.5rem;
+}
+
+.avatar-upload .avatar-edit {
+    position: absolute;
+    right: 12px;
+    z-index: 1;
+    top: 5px;
+    left: 5px;
+}
+
+.avatar-upload .avatar-edit input {
+    display: none;
+}
+
+.avatar-upload .avatar-edit input+label {
+    display: inline-block;
+    width: 199px;
+    height: 199px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+}
+
+.avatar-upload .avatar-edit input+label:hover {
+    background: #0000002a;
+    border-color: #8d8d8d;
+}
+
+.avatar-upload .avatar-edit input+label:after {
+    font-family: 'FontAwesome';
+    color: #757575;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.avatar-upload .avatar-preview {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border: 6px solid #000000;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-upload .avatar-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar-container {
+    align-items: center;
+}
+
+
+/* => This part is for the pdf_upload_btn */
+
+
+/* THIS IS FOR THE FOOOOOTEERRRRRR FOOOTTT */
+
+footer {
+    width: 100%;
+    height: 100px;
+    margin-top: 7rem;
+    background-color: rgb(34, 34, 34);
+    border-top: 3px solid black;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer span {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 2rem;
+}
+
+.all-course-pagination-btn {
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+}
+
+.all-course-pagination-btn div {
+    margin: auto;
+}
+
+.dashboard-flex-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.dashboard-flex-items {
+    width: 200px;
+    height: 250px;
+    background-color: rgb(54, 54, 54);
+    box-shadow: 4px 4px rgb(87, 87, 87);
+    border: 1px solid rgba(49, 49, 49, 0.404)
+}
+
+.dashboard-flex-header {
+    width: 100%;
+    background-color: rgb(175, 175, 175);
+    height: 50px;
+    text-align: center;
+}
+
+.dashboard-flex-header span {
+    position: relative;
+    top: 10px;
+}
+
+.dashboard-flex-info {
+    width: 100%;
+    height: 100%;
+}
+
+.dashboard-flex-info div {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+}
+
+.dashboard-flex-info span {
+    font-size: 2rem;
+    position: relative;
+    top: 23px;
+}
